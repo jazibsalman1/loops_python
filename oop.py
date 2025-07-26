@@ -4,7 +4,11 @@ class employee :
     salary = 10000000000000
     def info(self): #by default pa ya object ko as a argument pass krta hai
         print("My Name is:", self.name, "and my Age is:", self.age, "and my Salary is:", self.salary)
-
+    @staticmethod
+    def b():
+        print("This is a function inside the class employee but with a static method")
+# attributes. It also defines a static method `b` that prints a message. An instance of the class is created, and its attributes are printed. Additionally, a new attribute `brother` is added to the instance, and its value is printed along with the other attributes.
+b()
 
 jazib = employee()
 jazib.info()
