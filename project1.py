@@ -1,11 +1,11 @@
 import random
-number_to_guess = random.randint(1, 100)
+number_to_guess = random.randint(1, 50)
 attempts = 0
 
 while True:
-    guess = input("Guess the number between 1 and 100: ")
+    guess = input("Guess the number between 1 and 50: ")
     try:
-        guess = int(guess)
+     guess = int(guess)
     except ValueError:
         print("Please enter a valid integer.")
         continue
@@ -16,4 +16,5 @@ while True:
         print("Go lower!")
     else:
         print(f"Congratulations! You guessed the number in {attempts} tries.")
-        break
+            
+        break 
