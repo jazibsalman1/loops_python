@@ -7,7 +7,7 @@ while True:
     try:
      guess = int(guess)
     except ValueError:
-        print("Please enter a valid integer.")x
+        print("Please enter a valid integer.")
         continue
     attempts += 1
     if guess < number_to_guess:
