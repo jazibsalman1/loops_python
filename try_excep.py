@@ -7,3 +7,5 @@ except TypeError:
     print("A type error occurred!")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
+else:
+    print("No exceptions occurred.")
