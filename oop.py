@@ -1,4 +1,4 @@
-import main
+
 class employee :
 
     name = "Jazib"
@@ -11,7 +11,6 @@ class employee :
         print("This is a function inside the class employee but with a static method")
     b()
 # attributes. It also defines a static method `b` that prints a message. An instance of the class is created, and its attributes are printed. Additionally, a new attribute `brother` is added to the instance, and its value is printed along with the other attributes.
-print(__name__)
 
 jazib = employee()
 jazib.info()
